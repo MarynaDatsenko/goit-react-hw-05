@@ -1,0 +1,14 @@
+.reviewList {
+    max-width: 880px;
+}
+
+.reviewListItem {
+    margin-bottom: 20px;
+    box-shadow: 0px 7px 7px -3px rgba(0, 0, 0, 0.6);
+}
+
+.reviewAuthor {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+}

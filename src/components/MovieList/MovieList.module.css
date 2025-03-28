@@ -1,0 +1,30 @@
+.movieList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.movieItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+}
+
+.imageWrapper{
+height: 364px;
+width: 100%;
+overflow: hidden;
+border-radius: 12px;
+}
+
+.movieImage {
+height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.itemTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
